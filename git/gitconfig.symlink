@@ -1,16 +1,26 @@
-# Sample gitconfig
-#
-# You probably want to change the [user] section here since you are not me.
-
 [hub]
         protocol = https
 [user]
-        name = Zach Holman
-        email = zach@zachholman.com
+        name = Manassarn Manoonchai
+        email = manassarn@gmail.com
 [credential]
         helper = osxkeychain
 [alias]
+        a = add
+        ai = add -i
+        ap = add -p
+        b = branch
+        c = commit
+        cb = checkout -b
         co = checkout
+        d = diff
+        f = fetch
+        fa = fetch --all
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        m = merge
+        p = push
+        pom = pull origin master
+        r = rebase
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributers = !$ZSH/bin/git-rank-contributers
@@ -31,3 +41,5 @@
         prompt = false
 [help]
         autocorrect = 1
+[format]
+        pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
