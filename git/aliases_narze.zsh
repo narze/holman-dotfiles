@@ -1,6 +1,6 @@
 alias ga.="git add ."
 alias gaa="git add --all"
-alias gcam="git commit -a -m"
+alias gcam="git add --all && git commit -m"
 alias gcm="git commit -m"
 alias gcaa="git commit -a --amend"
 alias gcob="git checkout -b"
