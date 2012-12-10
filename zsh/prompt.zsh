@@ -49,6 +49,10 @@ rb_prompt(){
   fi
 }
 
+collapse_pwd() {
+  echo "%{$fg_bold[cyan]%}$(pwd | sed -e "s,^$HOME,~,")%{$reset_color%}"
+}
+
 # This keeps the number of todos always available the right hand side of my
 # command line. I filter it to only count those tagged as "+next", so it's more
 # of a motivation to clear out the list.
@@ -75,7 +79,7 @@ directory_name(){
 # Save a smiley to a local variable if the last command exited with success.
 local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
 
-export PROMPT=$'\n$(rb_prompt) in $(directory_name) $(git_dirty)$(need_push)\n${smiley} %{$reset_color%}'
+export PROMPT=$'\n$(collapse_pwd) $(git_dirty)$(need_push)\n${smiley} %{$reset_color%}'
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}$(todo)%{$reset_color%}"
 }
