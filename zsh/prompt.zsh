@@ -79,7 +79,7 @@ directory_name(){
 # Save a smiley to a local variable if the last command exited with success.
 local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
 
-export PROMPT=$'\n$(collapse_pwd) $(git_dirty)$(need_push)\n${smiley} %{$reset_color%}'
+export PROMPT=$'$(collapse_pwd) $(git_dirty)$(need_push)\n${smiley} %{$reset_color%}'
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}$(todo)%{$reset_color%}"
 }
