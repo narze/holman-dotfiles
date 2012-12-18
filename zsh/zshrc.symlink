@@ -34,15 +34,15 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git osx ruby)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/narze/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/narze/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/narze/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/narze/.rvm/bin:/Users/narze/.rvm/bin
 
-
-
+# Android path
+export PATH=$PATH:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools
 
 #### dotfile's .zshrc ####
 
