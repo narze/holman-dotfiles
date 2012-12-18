@@ -37,7 +37,7 @@ bind C-a last-window
 bind F9 last-window
 
 # auto set window title
-setw -g automatic-rename
+setw -g automatic-rename on
 
 # Start numbering at 1
 set -g base-index 1
