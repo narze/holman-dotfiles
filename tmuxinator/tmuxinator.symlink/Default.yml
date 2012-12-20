@@ -1,0 +1,21 @@
+# ~/.tmuxinator/Default.yml
+# you can make as many tabs as you wish...
+
+project_name: Default
+project_root: ~/
+tabs:
+  - home:
+      layout: main-vertical
+      panes:
+        -
+        - src
+        - clones
+        - Dropbox
+  - sohap: sohap
+  - sohap_mobile: sohapm
+  - ec2:
+      layout: main-vertical
+      panes:
+        - ec2 && sshbeta
+        - ec2 && sshprod
+  - dotfiles: dotfiles
