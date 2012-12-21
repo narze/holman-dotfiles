@@ -88,6 +88,8 @@ function! StripWhitespace ()
 endfunction
 map ,s :call StripWhitespace ()<CR>
 
+" syntax coloring "
+syntax on
 
 " vundle config "
 
