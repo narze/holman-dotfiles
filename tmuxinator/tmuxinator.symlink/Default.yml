@@ -11,7 +11,12 @@ tabs:
         - src
         - clones
         - Dropbox
-  - sohap: sohap
+  - sohap:
+      layout: main-vertical
+      panes:
+        - sohap
+        - sohap && assets/backend
+        - sohap && mongostart
   - sohap_mobile: sohapm
   - ec2:
       layout: main-vertical
