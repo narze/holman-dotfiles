@@ -91,10 +91,10 @@ Maid.rules do
     end
 
     # Disk images
-    mkdir '~/Downloads/DMGs'
+    mkdir '~/Downloads/DMG'
     dir('~/Downloads/*.{dmg,iso}').each do |path|
       if 1.hour.since? accessed_at path
-        move path, '~/Downloads/DMGs'
+        move path, '~/Downloads/DMG'
       end
     end
   end
