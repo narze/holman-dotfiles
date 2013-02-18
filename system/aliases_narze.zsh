@@ -1,6 +1,8 @@
 alias b=".."
 alias cwd='pwd | pbcopy'
+alias fixappleeventsbug='sudo killall -KILL appleeventsd'
 alias gowd='cd "`pbpaste`"'
+alias ip='curl ifconfig.me'
 alias mochacof='mocha --compilers coffee:coffee-script'
 alias mc='maid clean -n'
 alias mcf='maid clean'
