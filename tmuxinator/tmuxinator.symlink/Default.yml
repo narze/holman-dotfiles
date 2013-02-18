@@ -17,10 +17,26 @@ tabs:
         - sohap
         - sohap && assets/backend
         - sohap && mongostart
-  - sohap_mobile: sohapm
+  - sohap_mobile:
+      layout: main-vertical
+      panes:
+        - sohapm
+        - sohapm && www/socialhappen
+        - sohapm
+  - sohap_video:
+      layout: main-vertical
+      panes:
+        - src && socialhappen-video
+        - src && socialhappen-video
   - ec2:
       layout: main-vertical
       panes:
         - ec2 && sshbeta
         - ec2 && sshprod
+  - planet:
+      layout: main-vertical
+      panes:
+        - src && planet
+        - src && planet
+        - src && planet && coffee -cwb app/
   - dotfiles: dotfiles
