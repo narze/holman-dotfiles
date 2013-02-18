@@ -96,6 +96,8 @@ set nocompatible               " be iMproved
 filetype off                   " required!
 
 set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -116,13 +118,14 @@ Bundle 'SirVer/ultisnips'
 Bundle 'benmills/vimux'
 Bundle 'pangloss/vim-javascript'
 Bundle 'tomasr/molokai'
+Bundle 'Lokaltog/powerline'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'php.vim'
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
-" ...
+
 
 filetype plugin indent on     " required!
 "
@@ -141,3 +144,4 @@ filetype plugin indent on     " required!
 syntax on
 set background=dark
 colorscheme molokai
+set encoding=utf-8
