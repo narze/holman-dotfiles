@@ -33,6 +33,8 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+        autoclrf = input
+        safeclrf = true
 [apply]
         whitespace = nowarn
 [mergetool]
