@@ -81,7 +81,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # initialize tmux
-[[ $TERM != screen* ]] && tmuxinator start default
+[[ $TERM != screen* ]] && tmux kill-session -t Default ; tmuxinator start Default
 
 
 #### Revert $ZSH to prevent errors ####
