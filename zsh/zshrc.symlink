@@ -44,6 +44,12 @@ export PATH=/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/bin
 # Android path
 export PATH=$PATH:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools
 
+# npm path
+export PATH=/usr/local/share/npm/bin:$PATH
+
+# gem path
+export PATH=$PATH:$GEM_HOME
+
 #### dotfile's .zshrc ####
 
 # shortcut to this dotfiles path is $ZSH
