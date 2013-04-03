@@ -8,6 +8,7 @@ alias mc='maid clean -n'
 alias mcf='maid clean'
 alias o.="open ."
 alias o="open"
+alias ox="open *.xcodeproj"
 alias redo='sudo !!'
 alias s.="subl -na ."
 alias s="subl"
