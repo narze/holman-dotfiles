@@ -21,8 +21,8 @@ tabs:
       layout: main-vertical
       panes:
         - sohapm
-        - sohapm && www/socialhappen
-        - sohapm
+        - sohapm && www/socialhappen && serve
+        - sohapm && coffee -cwb .
   - sohap_video:
       layout: main-vertical
       panes:
