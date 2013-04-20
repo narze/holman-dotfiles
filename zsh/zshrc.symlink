@@ -39,7 +39,7 @@ plugins=(git osx ruby)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/narze/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/narze/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286/bin:/Users/narze/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/narze/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/narze/.rvm/bin:/Users/narze/.rvm/bin
+export PATH=/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin
 
 # Android path
 export PATH=$PATH:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools
@@ -49,6 +49,9 @@ export PATH=/usr/local/share/npm/bin:$PATH
 
 # gem path
 export PATH=$PATH:$GEM_HOME
+
+# postgresapp path
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 
 #### dotfile's .zshrc ####
 
