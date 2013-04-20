@@ -96,6 +96,9 @@ LC_NUMERIC="en_US.UTF-8"
 LC_TIME="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
 
+# rbenv shims & autocomplete
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 #### Revert $ZSH to prevent errors ####
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
