@@ -1,0 +1,62 @@
+session:
+  name: "Default"
+  windows:
+    - name: 'Home'
+      clear: true
+      root: ~
+      layout: main-vertical
+      panes:
+        - cmd:
+        - cmd: src
+        - cmd: clones
+        - cmd: db
+
+    - name: sohap
+      clear: true
+      root: ~/Dropbox/src/socialhappen
+      layout: main-vertical
+      panes:
+        - cmd:
+        - cmd: assets/backend
+        - cmd: mongostart
+
+    - name: sohap_mobile
+      layout: main-vertical
+      clear: true
+      root: ~/Dropbox/src/socialhappen-mobile
+      panes:
+        - cmd:
+        - cmd: cd www/socialhappen && serve
+        - cmd: coffee -cwb .
+
+    - name: sohap_video
+      clear: true
+      root: ~/Dropbox/src/socialhappen-video
+      layout: main-vertical
+      panes:
+        - cmd:
+        - cmd:
+
+    - name: ec2
+      layout: main-vertical
+      clear: true
+      root: ~/Dropbox/Projects/SocialHappen/SocialHappen P3/ec2
+      panes:
+        - cmd: sshbeta
+        - cmd: sshprod
+
+    - name: aletter
+      layout: main-vertical
+      clear: true
+      root: '~/Dropbox/src/aletter'
+      panes:
+        - cmd:
+        - cmd:
+        - cmd:
+
+    - name: dotfiles
+      clear: true
+      root: ~/Dropbox/dotfiles
+      panes:
+        - cmd:
+        - cmd:

@@ -1,0 +1,174 @@
+Script started on Sun Apr 21 17:59:20 2013
+l^C
+zsh compinit: insecure directories, run compaudit for list.
+Ignore insecure directories and continue [y] or abort compinit [n]? ^[[Acompinit: initialization aborted
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[A[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77D[[Ascript.script./script
+]2;./script[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles/script[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dlls
+]2;gls -F --color[0m[01;32mbootstrap[0m*
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles/script[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dbbootst_main_complete:126: permission denied: 
+
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00mbootst[K[71C[01;36m[00m[71D    b  ÷÷b÷  ../boo
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m./boo[K[72C[01;36m[00m[72Dt
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m./boot[K[71C[01;36m[00m[71Dstrap
+]2;./bootstrap
+  [ [00;34m..[0m ] setup gitconfig  [ [0;33m?[0m ]  - What is your github author name? [?1034har[K[K
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles/script[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77D./bootstrap
+]2;./bootstrap
+  [ [00;34m..[0m ] setup gitconfig  [ [0;33m?[0m ]  - What is your github author name? [?1034hManassarn Manoonchai
+  [ [0;33m?[0m ]  - What is your github author email? manassarn@gmail.com
+./bootstrap: line 39: git/gitconfig.symlink: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles/script[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77Dggitk
+zsh: correct 'gitk' to 'git' [nyae]? [1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles/script[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77Dggik x tx
+]2;gitx[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles/script[0m[27m[24m[J[01;36m~/Dropbox/dotfiles/script[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77D.../
+]2;../[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dsscrip
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00mscrip[K[72C[01;36m[00m[72Dt/bootstrap
+]2;script/bootstrap
+  [ [00;34m..[0m ] installing dotfiles  [ [0;33m?[0m ] File already exists: gitconfig.symlink, what do you want to do? [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all? b[2K  [ [00;32mOK[0m ] moved /Users/narze/.gitconfig to /Users/narze/.gitconfig.backup
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/git/gitconfig.symlink to /Users/narze/.gitconfig
+  [ [0;33m?[0m ] File already exists: gitignore.symlink, what do you want to do? [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all? S[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/git/gitignore.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/maid/maid.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/ruby/gemrc.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/ruby/irbrc.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/slate/slate.symlink
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/tmux/teamocil.symlink to /Users/narze/.teamocil
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/tmux/tmux-powerline.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/tmux/tmux.conf.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/tmuxinator/tmuxinator.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/vim/vim.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/vim/vimrc.symlink
+[2K  [ [00;32mOK[0m ] skipped /Users/narze/Dropbox/dotfiles/zsh/zshrc.symlink
+  [ [00;34m..[0m ] installing dependencies[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77Dscript/bootstrap
+]2;script/bootstrap
+  [ [00;34m..[0m ] installing dotfiles  [ [0;33m?[0m ] File already exists: gitconfig.symlink, what do you want to do? [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all? O[2K  [ [00;32mOK[0m ] removed /Users/narze/.gitconfig
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/git/gitconfig.symlink to /Users/narze/.gitconfig
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.gitignore
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/git/gitignore.symlink to /Users/narze/.gitignore
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.maid
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/maid/maid.symlink to /Users/narze/.maid
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.gemrc
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/ruby/gemrc.symlink to /Users/narze/.gemrc
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.irbrc
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/ruby/irbrc.symlink to /Users/narze/.irbrc
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.slate
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/slate/slate.symlink to /Users/narze/.slate
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.teamocil
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/tmux/teamocil.symlink to /Users/narze/.teamocil
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.tmux-powerline
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/tmux/tmux-powerline.symlink to /Users/narze/.tmux-powerline
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.tmux.conf
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/tmux/tmux.conf.symlink to /Users/narze/.tmux.conf
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.tmuxinator
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/tmuxinator/tmuxinator.symlink to /Users/narze/.tmuxinator
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.vim
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/vim/vim.symlink to /Users/narze/.vim
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.vimrc
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/vim/vimrc.symlink to /Users/narze/.vimrc
+[2K  [ [00;32mOK[0m ] removed /Users/narze/.zshrc
+[2K  [ [00;32mOK[0m ] linked /Users/narze/Dropbox/dotfiles/zsh/zshrc.symlink to /Users/narze/.zshrc
+  [ [00;34m..[0m ] installing dependencies[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77Dlls
+]2;gls -F --colorLicense          [0m[01;34mfunctions[0m/  [34;42mlocal[0m/  [01;34mruby[0m/    [01;34msublime2[0m/  [01;34mtmuxinator[0m/  [01;34mxcode[0m/
+README.markdown  [01;34mgit[0m/        [01;34mmaid[0m/   [01;34mscript[0m/  [01;34msystem[0m/    typescript   [01;34mzsh[0m/
+[01;34mbin[0m/             [01;34mhomebrew[0m/   [01;34mosx[0m/    [01;34mslate[0m/   [01;34mtmux[0m/      [01;34mvim[0m/
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dggap
+]2;git add -p[1mdiff --git a/zsh/zshrc.symlink b/zsh/zshrc.symlink[m
+[1mindex 9ccfb9e..04cdd2e 100644[m
+[1m--- a/zsh/zshrc.symlink[m
+[1m+++ b/zsh/zshrc.symlink[m
+[36m@@ -108,25 +108,25 @@[m [mtypeset -U config_files[m
+ config_files=($ZSH/**/*.zsh)[m
+ [m
+ # load the path files[m
+[31m-for file in ${(M)config_files:#*/path.zsh}[m
+[31m-do[m
+[31m-  source $file[m
+[31m-done[m
+[32m+[m[32m#for file in ${(M)config_files:#*/path.zsh}[m
+[32m+[m[32m# do[m
+[32m+[m[32m##  source $file[m
+[32m+[m[32m##done[m
+ [m
+ # load everything but the path and completion files[m
+[31m-for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}[m
+[31m-do[m
+[31m-  source $file[m
+[31m-done[m
+[32m+[m[32m# for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}[m
+[32m+[m[32m# do[m
+[32m+[m[32m#   source $file[m
+[32m+[m[32m# done[m
+ [m
+ # initialize autocomplete here, otherwise functions won't be loaded[m
+ autoload -U compinit[m
+ compinit[m
+ [m
+ # load every completion after autocomplete loads[m
+[31m-for file in ${(M)config_files:#*/completion.zsh}[m
+[31m-do[m
+[31m-  source $file[m
+[31m-done[m
+[32m+[m[32m# for file in ${(M)config_files:#*/completion.zsh}[m
+[32m+[m[32m# do[m
+[32m+[m[32m#  source $file[m
+[32m+[m[32m# done[m
+ [m
+[31m-unset config_files[m
+[32m+[m[32m# unset config_files[m
+[1;34mStage this hunk [y,n,q,a,d,/,s,e,?]? [mn
+
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dgga
+]2;git addNothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dggs
+]2;git status -sb## [32mmaster[m...[31morigin/master[m [ahead [32m92[m]
+ [31mM[m zsh/zshrc.symlink
+[31m??[m typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dggag  tteamocil
+]2;teamocil[teamocil] There is no file "/Users/narze/.teamocil/.yml"
+[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/Dropbox/dotfiles[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m[K[77C[01;36m[00m[77D/ ~~/.tem
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m~/.tem[K[71C[01;36m[00m[71D 
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/Dropbox/dotfiles[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[31m☹[00m [00m~/.te[K[72C[01;36m[00m[72Damocil
+]2;~/.teamocil[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/.teamocil[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dtteamocil --edit sample
+]2;teamocil --edit sample[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/.teamocil[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Ds
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00ms[K[76C[01;36m[00m[76D
+]2;subl[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/.teamocil[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77Dss ~/drop
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00ms ~/drop[K[69C[01;36m[00m[69Dbox
+_complete:96: bad math expression: operand expected at `'
+[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00ms ~/dropbox[K[66C[01;36m[00m[66D/dotfiles/tmuxinator
+]2;subl ~/dropbox/dotfiles/tmuxinator[1m[7m%[27m[1m[0m                                                                                ]2;narzair]2;narze@narzair: ~/.teamocil[0m[27m[24m[J[01;36m~/.teamocil[00m on [01;31mmaster[00m with [01;35munpushed[00m 
+[32m☺[00m [00m[K[77C[01;36m[00m[77D
+Script done on Mon Apr 22 02:04:51 2013

@@ -23,8 +23,12 @@ alias topRightQuarter ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}/2
 alias bottomLeftQuarter ${sox};${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
 alias bottomRightQuarter ${sox}+${ssx}/2;${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
 
+# Move to other screen
+bind [:ctrl;alt;cmd throw prev resize
+bind ]:ctrl;alt;cmd throw next resize
+
 # Resize
-bind f:ctrl;alt;cmd  move ${fullscreen}
+bind f:ctrl;alt;cmd move ${fullscreen}
 
 # Resize Bindings
 # bind right:alt       resize +10% +0
@@ -37,8 +41,8 @@ bind f:ctrl;alt;cmd  move ${fullscreen}
 # bind down:ctrl;alt   resize +0   -10% bottom-right
 
 # Push Bindings
-bind right:ctrl;alt;cmd  push right bar-resize:screenSizeX/2
-bind left:ctrl;alt;cmd   push left  bar-resize:screenSizeX/2
+bind right:ctrl;alt;cmd  chain push right bar-resize:screenSizeX/2 | throw next resize
+bind left:ctrl;alt;cmd   chain push left  bar-resize:screenSizeX/2 | throw prev resize
 bind up:ctrl;alt;cmd     push up    bar-resize:screenSizeY/2
 bind down:ctrl;alt;cmd   push down  bar-resize:screenSizeY/2
 bind g:ctrl;alt;cmd      move ${centered}
@@ -77,3 +81,4 @@ bind down:cmd;alt focus behind
 
 # Window Hints
 bind esc:cmd hint
+bind f:alt;shift  hint fjrudkeislwoa;qp
