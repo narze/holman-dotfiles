@@ -40,10 +40,10 @@ session:
     - name: ec2
       layout: main-vertical
       clear: true
-      root: ~/Dropbox/Projects/SocialHappen/SocialHappen P3/ec2
+      root: ~
       panes:
-        - cmd: sshbeta
-        - cmd: sshprod
+        - cmd: ec2 && sshbeta
+        - cmd: ec2 && sshprod
 
     - name: aletter
       layout: main-vertical
