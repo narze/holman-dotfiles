@@ -11,29 +11,30 @@ session:
         - cmd: clones
         - cmd: db
 
-    - name: sohap
+
+    - name: sonar-backend
       clear: true
-      root: ~/Dropbox/src/socialhappen
-      layout: main-vertical
+      root: ~/work/sonar-backend
       panes:
         - cmd:
-        - cmd: assets/backend
-        - cmd: mongostart
+        - cmd:
+        - cmd:
 
-    - name: sohap_mobile
+    - name: socialhappen-backend
       layout: main-vertical
       clear: true
-      root: ~/Dropbox/src/socialhappen-mobile
+      root: ~/work/socialhappen-backend
+      panes:
+        - cmd: guard
+        - cmd:
+        - cmd:
+
+    - name: socialhappen-quick
+      layout: main-vertical
+      clear: true
+      root: ~/work/socialhappenquickquick
       panes:
         - cmd:
-        - cmd: cd www/socialhappen && serve
-        - cmd: coffee -cwb .
-
-    - name: sohap_video
-      clear: true
-      root: ~/Dropbox/src/socialhappen-video
-      layout: main-vertical
-      panes:
         - cmd:
         - cmd:
 
@@ -45,18 +46,19 @@ session:
         - cmd: ec2 && sshbeta
         - cmd: ec2 && sshprod
 
-    - name: aletter
-      layout: main-vertical
-      clear: true
-      root: '~/Dropbox/src/aletter'
-      panes:
-        - cmd:
-        - cmd:
-        - cmd:
-
     - name: dotfiles
       clear: true
       root: ~/Dropbox/dotfiles
       panes:
+        - cmd:
+        - cmd:
+
+    - name: sandbox
+      clear: true
+      root: ~
+      layout: main-vertical
+      panes:
+        - cmd:
+        - cmd:
         - cmd:
         - cmd:
