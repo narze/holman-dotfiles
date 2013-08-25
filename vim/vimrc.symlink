@@ -154,3 +154,8 @@ set encoding=utf-8
 
 " powerline "
 let g:Powerline_symbols = 'fancy'
+
+syntax on
+
+" Wrap gitcommit file types at the appropriate length
+filetype indent plugin on
