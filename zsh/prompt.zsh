@@ -100,7 +100,7 @@ local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_colo
 
 # export PROMPT=$'$(collapse_pwd) $(git_dirty)$(need_push)\n${smiley} %{$reset_color%}'
 
-export PROMPT=$'\n$(rb_prompt)in $(directory_name) $(git_dirty)$(need_push) ${smiley} %{$reset_color%}\n› '
+export PROMPT=$'$(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n${smiley} '
 
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
