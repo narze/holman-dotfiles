@@ -4,7 +4,7 @@
         name = Manassarn Manoonchai
         email = manassarn@gmail.com
 [credential]
-        helper = osxkeychain
+        helper = /opt/boxen/bin/boxen-git-credential
 [alias]
         a = add
         ai = add -i
@@ -31,7 +31,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+        excludesfile = /opt/boxen/config/git/gitignore
         editor = vim
         autoclrf = input
         safeclrf = true
