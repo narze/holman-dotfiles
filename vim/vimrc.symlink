@@ -122,6 +122,7 @@ Bundle 'tomasr/molokai'
 Bundle 'Lokaltog/powerline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'msanders/snipmate.vim'
+Bundle 'kana/vim-arpeggio'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
