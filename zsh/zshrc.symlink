@@ -65,7 +65,7 @@ export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 export ZSH=$HOME/Dropbox/dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/work
+export PROJECTS=~/Projects
 
 # source every .zsh file in this rep
 for config_file ($ZSH/**/*.zsh) [[ "$(basename $config_file)" == "completion.zsh" ]] || source $config_file
@@ -97,11 +97,14 @@ LC_NUMERIC="en_US.UTF-8"
 LC_TIME="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
 
+# boxen environment
+[ -f /opt/boxen/env.sh ] && . /opt/boxen/env.sh
+
 # rbenv shims & autocomplete
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # powerline for zsh
-. ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+# . ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 
 #### Revert $ZSH to prevent errors ####
 # Path to your oh-my-zsh configuration.
@@ -137,4 +140,3 @@ compinit
 
 setopt auto_cd
 
-[ -f /opt/boxen/env.sh ] && . /opt/boxen/env.sh
