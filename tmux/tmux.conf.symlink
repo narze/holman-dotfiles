@@ -7,7 +7,7 @@ setw -g monitor-activity on
 # enable copy-paste http://goo.gl/DN82E
 # enable RubyMotion http://goo.gl/WDlCy
 # brew install reattach-to-user-namespace
-set -g default-command "reattach-to-user-namespace -l fish"
+set -g default-command "reattach-to-user-namespace -l zsh"
 
 # act like vim
 setw -g mode-keys vi
