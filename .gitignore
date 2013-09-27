@@ -4,3 +4,4 @@ vim/vim.symlink/.netrwhist
 local/*
 vim/vim.symlink/bundle/*
 git/gitconfig.symlink
+.DS_Store
