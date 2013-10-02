@@ -39,7 +39,7 @@ plugins=(git osx ruby)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin
+export PATH=/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:./bin:/Users/narze/.rbenv/shims:/usr/local/sbin:/Users/narze/.sfs:/Users/narze/Dropbox/dotfiles/bin:/opt/boxen/homebrew/bin
 
 # MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
