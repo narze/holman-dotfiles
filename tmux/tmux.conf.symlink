@@ -25,7 +25,7 @@ bind -n C-l run-shell 'tmux-vim-select-pane -R'
 bind -n "C-\\" run-shell 'tmux-vim-select-pane -l'
 
 # act like GNU screen
-unbind C-b
+# unbind C-b
 unbind %
 bind | split-window -h
 bind - split-window -v
@@ -73,7 +73,7 @@ set-window-option -g mode-mouse on
 
 # force a reload of the config file
 unbind r
-bind r source-file ~/.tmux.conf ; display 'Reloaded tmux config.'
+#bind r source-file ~/.tmux.conf ; display 'Reloaded tmux config.'
 
 # copy to clipboard in mode-mouse
 bind y run-shell "reattach-to-user-namespace -l zsh -c 'tmux show-buffer | pbcopy' ; display 'Copied to clipboard'"

@@ -41,10 +41,10 @@ bind f:ctrl;alt;cmd move ${fullscreen}
 # bind down:ctrl;alt   resize +0   -10% bottom-right
 
 # Push Bindings
-bind right:ctrl;alt;cmd  chain push right bar-resize:screenSizeX/2 | throw next resize
-bind left:ctrl;alt;cmd   chain push left  bar-resize:screenSizeX/2 | throw prev resize
-bind up:ctrl;alt;cmd     push up    bar-resize:screenSizeY/2
-bind down:ctrl;alt;cmd   push down  bar-resize:screenSizeY/2
+bind right:ctrl;shift;cmd  chain push right bar-resize:screenSizeX/2 | throw next resize
+bind left:ctrl;shift;cmd   chain push left  bar-resize:screenSizeX/2 | throw prev resize
+bind up:ctrl;shift;cmd     push up    bar-resize:screenSizeY/2
+bind down:ctrl;shift;cmd   push down  bar-resize:screenSizeY/2
 bind g:ctrl;alt;cmd      move ${centered}
 bind o:ctrl;alt;cmd      move ${fullscreen}
 bind h:ctrl;alt;cmd      move ${leftHalf}

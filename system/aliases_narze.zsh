@@ -2,6 +2,7 @@ alias b=".."
 alias cwd='pwd | pbcopy'
 alias fixappleeventsbug='sudo killall -KILL appleeventsd'
 alias gowd='cd "`pbpaste`"'
+alias h='heroku'
 alias ip='curl ifconfig.me'
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
 alias mochacof='mocha --compilers coffee:coffee-script'
