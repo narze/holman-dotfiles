@@ -11,6 +11,7 @@ alias mcf='maid clean'
 alias o.="open ."
 alias o="open"
 alias ox="open *.xcworkspace || open *.xcodeproj"
+alias please='sudo bash -c "$(fc -l -1 | cut -d " " -f 4-)"'
 alias r="rails"
 alias rc="rails console"
 alias rg="rails generate"
