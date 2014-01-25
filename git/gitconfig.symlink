@@ -25,7 +25,8 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributers = !$ZSH/bin/git-rank-contributers
         count   = !git shortlog -sn
-	today = log --since=midnight --author='Manassarn Manoonchai' --oneline
+	today = !git log --graph --all --since=midnight --author=\"$(git config user.name)\" --oneline
+        yesterday = !git log --graph --all --since="day.before.yesterday.midnight" --until=midnight --author=\"$(git config user.name)\" --oneline
 [color]
         diff = auto
         status = auto
