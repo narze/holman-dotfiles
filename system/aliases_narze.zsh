@@ -20,6 +20,6 @@ alias rk="rake"
 alias rkdm="rake db:migrate"
 alias redo='sudo !!'
 alias s.="subl -na ."
-alias s="subl"
+alias sl="subl"
 alias serve='python -m SimpleHTTPServer 8000'
 alias v="vim"
