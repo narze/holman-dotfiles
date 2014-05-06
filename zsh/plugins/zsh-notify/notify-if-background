@@ -45,7 +45,7 @@ fi
 
 if [[ $term_id == 'com.googlecode.iterm2' ]]; then
   TT='tell-iterm2'
-  if [[ `$TT <<< "frontmost and (tty of (current session of current terminal) is equal to \"$TTY\")"` == "true" ]]; then
+  if [[ `$TT <<< "frontmost"` == "true" ]]; then
     return 2
   fi
 else
