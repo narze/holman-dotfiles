@@ -147,3 +147,7 @@ if which fasd > /dev/null; then eval "$(fasd --init auto)"; fi
 
 # Bundler exec
 [ -f ~/.bundler-exec.sh ] && source ~/.bundler-exec.sh
+
+# Config for zsh-notify
+export SYS_NOTIFIER=$(which terminal-notifier)
+export NOTIFY_COMMAND_COMPLETE_TIMEOUT=15
