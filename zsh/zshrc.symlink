@@ -144,3 +144,6 @@ setopt auto_cd
 
 # init fasd https://github.com/clvv/fasd
 if which fasd > /dev/null; then eval "$(fasd --init auto)"; fi
+
+# Bundler exec
+[ -f ~/.bundler-exec.sh ] && source ~/.bundler-exec.sh
