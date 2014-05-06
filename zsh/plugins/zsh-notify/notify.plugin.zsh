@@ -53,3 +53,5 @@ autoload -U tell-iterm2
 autoload -U notify-if-background
 add-zsh-hook preexec store-command-stats
 add-zsh-hook precmd notify-command-complete
+
+export SYS_NOTIFIER=$(which terminal-notifier)
