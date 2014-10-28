@@ -10,10 +10,18 @@ fpath=($fpath `dirname $0`)
 
 # Notify an error with no regard to the time elapsed (but always only
 # when the terminal is in background).
-function notify-error {
-  local icon
+function notify-error() {
+  local icon now diff start_time last_command
+
   icon="/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AlertStopIcon.icns"
-  notify-if-background -t "#fail" --image "$icon" < /dev/stdin &!
+  start_time=$1
+  last_command="$2"
+  now=`date "+%s"`
+
+  ((diff = $now - $start_time ))
+  if (( $diff > $NOTIFY_COMMAND_COMPLETE_TIMEOUT )); then
+    notify-if-background -t "#fail" --image "$icon" <<< "$last_command" &!
+  fi
 }
 
 # Notify of successful command termination, but only if it took at least
@@ -34,8 +42,8 @@ function notify-success() {
 # Notify about the last command's success or failure.
 function notify-command-complete() {
   last_status=$?
-  if [[ $last_status -gt "0" ]]; then
-    notify-error <<< $last_command
+  if [[ $last_status -gt "0" ]] && [[ -n $start_time ]]; then
+    notify-error "$start_time" "$last_command"
   elif [[ -n $start_time ]]; then
     notify-success "$start_time" "$last_command"
   fi
