@@ -149,5 +149,6 @@ if which fasd > /dev/null; then eval "$(fasd --init auto)"; fi
 [ -f ~/.bundler-exec.sh ] && source ~/.bundler-exec.sh
 
 # Config for zsh-notify
-export SYS_NOTIFIER=$(which terminal-notifier)
+# export SYS_NOTIFIER=$(which terminal-notifier)
+export SYS_NOTIFIER=/Applications/terminal-notifier.app/Contents/MacOS/terminal-notifier
 export NOTIFY_COMMAND_COMPLETE_TIMEOUT=15
