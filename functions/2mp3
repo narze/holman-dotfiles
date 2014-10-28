@@ -1,0 +1,5 @@
+mpc2mp3() {
+  for i in *.mpc; do
+    ffmpeg -i $i -y -codec:a libmp3lame -q:a 0 ${i%%.*}.mp3
+  done
+}
