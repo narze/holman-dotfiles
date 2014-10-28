@@ -3,7 +3,7 @@ setopt auto_cd
 
 # vi mode
 bindkey -v
-bindkey "^F" vi-cmd-mode
+# bindkey "^F" vi-cmd-mode
 bindkey jj vi-cmd-mode
 
 # use incremental search
@@ -33,3 +33,22 @@ setopt prompt_subst
 
 # Try to correct command line spelling
 setopt CORRECT CORRECT_ALL
+
+## iTerm movements
+
+# Skip forward/back a word with opt-arrow
+bindkey '^[w' forward-word
+bindkey '^w' forward-word
+bindkey '^[b' backward-word
+bindkey '^b' backward-word
+
+# Skip to start/end of line with cmd-arrow
+bindkey '^a' beginning-of-line
+bindkey '^k' end-of-line
+
+# Delete word with opt-backspace/opt-delete
+bindkey '[G' backward-kill-word
+bindkey '[H' kill-word
+
+# Delete line with cmd-backspace
+bindkey '[I' kill-whole-line
