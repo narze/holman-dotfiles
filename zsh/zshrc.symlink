@@ -152,3 +152,28 @@ if which fasd > /dev/null; then eval "$(fasd --init auto)"; fi
 # export SYS_NOTIFIER=$(which terminal-notifier)
 export SYS_NOTIFIER=/Applications/terminal-notifier.app/Contents/MacOS/terminal-notifier
 export NOTIFY_COMMAND_COMPLETE_TIMEOUT=15
+
+# Cursor indicator on vi-mode
+function zle-keymap-select zle-line-init
+{
+    # change cursor shape in iTerm2
+    case $KEYMAP in
+        vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
+        viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
+    esac
+
+    # zle reset-prompt
+    zle -R
+}
+
+function zle-line-finish
+{
+    print -n -- "\E]50;CursorShape=0\C-G"  # block cursor
+}
+
+zle -N zle-line-init
+zle -N zle-line-finish
+zle -N zle-keymap-select
+
+# Change soft limit fro 256 to 1000
+ulimit -n 1000
