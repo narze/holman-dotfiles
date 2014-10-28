@@ -3,5 +3,13 @@ sublime2/User/Package Control.last-run
 vim/vim.symlink/.netrwhist
 local/*
 vim/vim.symlink/bundle/*
+
+atom.symlink/.node-gyp
+atom.symlink/.storage
+atom.symlink/compile-cache/
+atom.symlink/packages
+atom.symlink/storage
+atom.symlink/themes
+
 git/gitconfig.symlink
 .DS_Store
