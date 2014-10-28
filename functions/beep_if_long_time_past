@@ -1,0 +1,8 @@
+beep_if_long_time_past() {
+    LAST_COMMAND_DURATION=$(($(date +%s) - ${LAST_COMMAND_TIME}))
+    [[ ${LAST_COMMAND_DURATION} -gt 60 ]] && { echo "Last command took ${LAST_COMMAND_DURATION} seconds!"; osascript -e 'tell app "System Events" to display alert "Build Completed" message "The checkout and build have completed."'; }
+    export LAST_COMMAND_TIME=
+}
+
+export PROMPT_COMMAND=beep_if_long_time_past
+trap '[ -z ${LAST_COMMAND_TIME} ] && export LAST_COMMAND_TIME=$(date +%s)' DEBUGผก้ห
