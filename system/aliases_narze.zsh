@@ -1,6 +1,7 @@
 alias b=".."
 alias cwd='pwd | pbcopy'
 alias fixappleeventsbug='sudo killall -KILL appleeventsd'
+alias fuck='eval $(thefuck $(fc -ln -1))'
 alias gowd='cd "`pbpaste`"'
 alias h='heroku'
 alias ip='curl ifconfig.me'
