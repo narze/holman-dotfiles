@@ -126,6 +126,8 @@ compinit
 
 setopt auto_cd
 
+unsetopt correct
+
 # init fasd https://github.com/clvv/fasd
 if which fasd > /dev/null; then eval "$(fasd --init auto)"; fi
 
