@@ -37,6 +37,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # postgresapp path
 # export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 
+# composer path
+export PATH=~/.composer/vendor/bin:$PATH
+
 #### dotfile's .zshrc ####
 
 # shortcut to this dotfiles path is $ZSH
