@@ -1,7 +1,27 @@
+# BEGIN:Antigen
+source ~/.dotfiles/zsh/antigen.zsh
+antigen use oh-my-zsh
+antigen use prezto
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Tell antigen that you're done.
+antigen apply
+
+# END:Antigen
+
 # Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+# if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+#   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+# fi
 
 # Customize to your needs...
 
@@ -176,3 +196,11 @@ zle -N zle-keymap-select
 
 # Change soft limit fro 256 to 1000
 ulimit -n 1000
+
+# BEGIN:Antigen (theme)
+# Load the theme.
+antigen theme robbyrussell
+
+# Tell antigen that you're done.
+antigen apply
+# END:Antigen (theme)
