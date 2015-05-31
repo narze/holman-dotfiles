@@ -1,6 +1,6 @@
 # BEGIN:Antigen
 source ~/.dotfiles/zsh/antigen.zsh
-antigen use oh-my-zsh
+# antigen use oh-my-zsh
 antigen use prezto
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
@@ -73,8 +73,9 @@ export PROJECTS=~/Projects
 
 # source every .zsh file in this rep
 for config_file ($ZSH/**/*.zsh) do 
-  [[ $config_file =~ (zsh/prompt.zsh|window.zsh)$ ]] && continue
+  [[ $config_file =~ (zsh/prompt.zsh|window.zsh|fpath.zsh)$ ]] && continue
   [[ "$(basename $config_file)" == "completion.zsh" ]] && continue
+  # echo $config_file
   source $config_file
 done
 
@@ -198,8 +199,8 @@ ulimit -n 1000
 
 # BEGIN:Antigen (theme)
 # Load the theme.
-antigen theme robbyrussell
+# antigen theme robbyrussell
 
 # Tell antigen that you're done.
-antigen apply
+# antigen apply
 # END:Antigen (theme)
